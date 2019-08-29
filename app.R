@@ -19,7 +19,7 @@
 # install.packages("plotfunctions")
 # install.packages("sf")
 # #devtools::install_github("r-spatial/mapview@develop")
-install.packages("DT")
+# install.packages("DT")
 ###############################################################pre-processing raster
 
 # script to process MAP obtained raster files
@@ -333,6 +333,11 @@ if(!require(shiny)){
 if(!require(RColorBrewer)){
   install.packages("RColorBrewer")
   library(RColorBrewer)
+}
+
+if(!require(DT)){
+  install.packages("DT")
+  library(DT)
 }
 
 if(!require(malariaAtlas)){
