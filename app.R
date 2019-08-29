@@ -19,7 +19,7 @@
 # install.packages("plotfunctions")
 # install.packages("sf")
 # #devtools::install_github("r-spatial/mapview@develop")
-# install.packages("DT")
+install.packages("DT")
 ###############################################################pre-processing raster
 
 # script to process MAP obtained raster files
