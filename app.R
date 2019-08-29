@@ -1,4 +1,3 @@
-
 ## app.R ##
 # install.packages("sp")
 # install.packages("rgdal", repos="http://R-Forge.R-project.org", type="source")
@@ -623,7 +622,6 @@ if(!require(DT)){
   install.packages("DT")
   library(DT)
 }
-
 
 # read in MAP availability lookup table
 lookup <- read.csv('data/combined_lookup.csv', sep = ',', check.names = FALSE)
